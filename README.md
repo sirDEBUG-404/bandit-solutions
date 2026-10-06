@@ -1,10 +1,10 @@
-# 🛡️ OverTheWire: Bandit Çözümleri (Level 0 - 10)
+# OverTheWire: Bandit Çözümleri (Level 0 - 10)
 
 Bu depoda, Linux ve Siber Güvenlik temellerini öğrenmek için çözdüğüm OverTheWire Bandit CTF yarışmasının ilk 10 seviye notları yer almaktadır.
 
 ---
 
-### 🚀 Öğrenilen Temel Linux Komutları
+### Öğrenilen Temel Linux Komutları
 - `ls -la`: Gizli dosyalar dahil tüm dosyaları listeler.
 - `cd`: Dizinler (klasörler) arasında geçiş yapar.
 - `cat`: Dosya içeriğini ekrana yazdırır.
@@ -16,7 +16,7 @@ Bu depoda, Linux ve Siber Güvenlik temellerini öğrenmek için çözdüğüm O
 
 ---
 
-### 📝 Seviye Özetleri ve Yöntemler
+### Seviye Özetleri ve Yöntemler
 
 * **Level 0 -> 1:** SSH ile sunucuya bağlanıldı, `readme` dosyası `cat` ile okundu.
 * **Level 1 -> 2:** Tire ile başlayan `-` garip isimli dosya `cat ./-` şeklinde okundu.
@@ -30,4 +30,4 @@ Bu depoda, Linux ve Siber Güvenlik temellerini öğrenmek için çözdüğüm O
 * **Level 9 -> 10:** `strings` komutu ile dosyadaki okunabilir metinler çekildi.
 
 ---
-📌 *Siber güvenlik yolculuğumdaki ilk adımdır. Güncellenmeye devam edecektir.*
+*Siber güvenlik yolculuğumdaki ilk adımdır. Güncellenmeye devam edecektir.*
