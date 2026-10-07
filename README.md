@@ -1,4 +1,4 @@
-# OverTheWire: Bandit Çözümleri (Level 0 - 10)
+# OverTheWire: Bandit Çözümleri (Level 0 - 33)
 
 Bu depoda, Linux ve Siber Güvenlik temellerini öğrenmek için çözdüğüm OverTheWire Bandit CTF yarışmasının ilk 10 seviye notları yer almaktadır.
 
