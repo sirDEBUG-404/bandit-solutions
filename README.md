@@ -24,7 +24,7 @@ Bu depoda, Linux ve Siber Güvenlik temellerini öğrenmek için çözdüğüm O
 * **Level 3 -> 4:** Gizli klasördeki gizli dosya `ls -la` kullanılarak bulundu.
 * **Level 4 -> 5:** İnsan tarafından okunabilir tek dosya arandı. file./* komutu ile ASCII text olan tek dosya bulundu.
 * **Level 5 -> 6:** `find` komutuyla boyutu tam 1033 byte olan dosya tespit edildi.
-* **Level 6 -> 7:** Sunucunun tamamında kullanıcı ve grup yetkilerine göre dosya arandı.
+* **Level 6 -> 7:** Sunucunun tamamında kullanıcı ve grup yetkilerine göre dosya arandı. user bandit7 group bandit6 size 33c --- find
 * **Level 7 -> 8:** `grep` ile `data.txt` içinde 'millionth' kelimesi aratıldı.
 * **Level 8 -> 9:** `sort` ve `uniq -u` birleştirilerek sadece 1 kez tekrar eden parola bulundu. " sort data.txt | uniq -u" kodu ile. sort data.txt alfabetik hale getirir, | ikinci komuta input girdi olarak verir. uniq -u ise benzersiz olanı alır.
 * **Level 9 -> 10:** `strings` komutu ile dosyadaki okunabilir metinler çekildi. strings data.txt | grep "==*" komutu. string data.txt okunabilir ASCII kelime ve cumleleri ayırır. grep ise önünde = işareti olan ve bize lazım olanı önümüze getirir.
